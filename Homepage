@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zcartt Film Productions</title>
+
+```
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background: #ffffff;
+        color: #111;
+        min-height: 100vh;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 80px;
+    }
+
+    .left-column {
+        max-width: 500px;
+    }
+
+    h1 {
+        font-size: 3rem;
+        font-weight: 300;
+        margin-bottom: 30px;
+        line-height: 1.1;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+        color: #444;
+        font-size: 1rem;
+        transition: color 0.2s ease;
+    }
+
+    .nav-links a:hover {
+        color: #000;
+    }
+
+    .logo-placeholder {
+        width: 300px;
+        height: 300px;
+        border: 2px dashed #ccc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #999;
+        font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+
+        .container {
+            flex-direction: column;
+            gap: 50px;
+            padding: 40px;
+        }
+
+        .logo-placeholder {
+            width: 250px;
+            height: 250px;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+        }
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+```
+<div class="container">
+
+    <div class="left-column">
+
+        <h1>Zcartt Film Productions</h1>
+
+        <nav class="nav-links">
+            <a href="#">Reel</a>
+            <a href="#">Editing Work</a>
+            <a href="#">Film/Documentary Editing</a>
+            <a href="#">Cinematography</a>
+            <a href="#">VFX</a>
+        </nav>
+
+    </div>
+
+    <div class="logo-placeholder">
+        Future Logo
+    </div>
+
+</div>
+```
+
+</body>
+</html>
